@@ -27,7 +27,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.module3.ui.theme.MyApplicationTheme
 
 /**
- * ViewModel для сохранения состояния счетчика при изменениях конфигурации (поворот экрана)
+ * ViewModel
  */
 class CounterViewModel : ViewModel() {
     var count by mutableIntStateOf(0)
@@ -43,7 +43,7 @@ class CounterViewModel : ViewModel() {
 }
 
 /**
- * Экран со счетчиком на базе ViewModel
+ * Экран счетчика
  */
 @Composable
 fun Task4Screen(
