@@ -35,7 +35,7 @@ object Routes {
 }
 
 /**
- * Экран "Home" с кнопкой для перехода на экран "Details"
+ * Экран "Home" с переходом на скрин Details
  */
 @Composable
 fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
@@ -87,7 +87,7 @@ fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
 }
 
 /**
- * Экран "Details" с подробной информацией и кнопкой возврата назад
+ * Экран Details с инфой и кнопкой назад
  */
 @Composable
 fun DetailsScreen(navController: NavController, modifier: Modifier = Modifier) {
@@ -160,7 +160,7 @@ fun Task5NavGraph(modifier: Modifier = Modifier) {
 }
 
 /**
- * Preview для Задания 5 (экран Home)
+ * Preview
  */
 @Preview(name = "Task 5 - Home Screen Preview", showBackground = true, showSystemUi = true)
 @Composable
