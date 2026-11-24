@@ -8,13 +8,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.module3.R
 
-// Семейство шрифтов Montserrat, загруженное из Google Fonts
+// Семейка шрифтов Montserrat из Google Fonts
 val Montserrat = FontFamily(
     Font(R.font.montserrat_regular, FontWeight.Normal),
     Font(R.font.montserrat_bold, FontWeight.Bold)
 )
 
-// Пользовательская типографика с использованием шрифта Montserrat
+// типографика с Montserrat
 val AppTypography = Typography(
     displayLarge = TextStyle(
         fontFamily = Montserrat,

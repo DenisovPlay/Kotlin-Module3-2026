@@ -4,7 +4,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
 import androidx.compose.ui.unit.dp
 
-// Пользовательские формы для компонентов согласно Заданию 2
+// Пользовательские формы
 val Shapes = Shapes(
     small = RoundedCornerShape(8.dp),
     medium = RoundedCornerShape(
