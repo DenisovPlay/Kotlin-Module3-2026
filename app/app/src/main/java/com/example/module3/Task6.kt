@@ -132,7 +132,7 @@ fun ShipDetailPane(
 }
 
 /**
- * Адаптивный экран (Задание 6):
+ * Адаптивный экранчик тут у нас крутейший:
  * - Compact: одноколоночный макет (список)
  * - Medium / Expanded: двухколоночный макет (список слева + детали справа)
  */
@@ -229,7 +229,7 @@ fun Task6AdaptiveScreen(
 }
 
 /**
- * Preview: Compact (портретный экран телефона)
+ * Preview: Compact
  */
 @Preview(name = "Task 6 - Compact (Phone Portrait)", device = "spec:parent=pixel_5,orientation=portrait", showBackground = true, showSystemUi = true)
 @Composable
@@ -245,7 +245,7 @@ fun Task6CompactPreview() {
 }
 
 /**
- * Preview: Medium (планшет / альбомная ориентация телефона)
+ * Preview: Medium
  */
 @Preview(name = "Task 6 - Medium / Expanded (Two Columns)", device = "spec:parent=pixel_5,orientation=landscape", showBackground = true, showSystemUi = true)
 @Composable
